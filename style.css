@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 10px;
+    background: rgb(177, 177, 248);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 30px;
+    color: #fff;
+    background: rgb(144, 235, 144);
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+.section {
+    padding: 50px;
+    height: calc(90vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.s1 {
+    background: rgb(155, 154, 154);
+}
+.s2 {
+    background: rgb(142, 206, 248);
+}
+.s3 {
+    background: rgb(213, 227, 253);
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    /* position: relative; */
+}
+
+.item {
+    width: 250px;
+    height: 400px;
+    /* background: silver; */
+    /* position: absolute; */
+    /* bottom: 500px; */
+}
+
+.opus {
+    background: #303030;
+    color: #fff;
+    width: 250px;
+}
+
+.opus-2 {
+    background: #303030;
+    color: #fff;
+    width: 250px;
+}
+
+.opus-3 {
+    background: #303030;
+    color: #fff;
+    width: 250px;  
+}
+
+.opus-5 {
+    background: #303030;
+    color: #fff;
+    width: 250px;   
+}
+
+.opus-6 {
+    background: #303030;
+    color: #fff;
+    width: 250px;   
+}
+
+.opus-7 {
+    background: #303030;
+    color: #fff;
+    width: 250px;   
+}
+
+.opus-8 {
+    background: #303030;
+    color: #fff;
+    width: 250px;  
+}
+
+.opus-9 {
+    background: #303030;
+    color: #fff;
+    width: 250px;   
+}
+
+.opus-10 {
+    background: #303030;
+    color: #fff;
+    width: 250px;   
+}
+
+h2 {
+   position: relative; 
+}
+
+.bouovuku {
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    color: rgb(247, 73, 73);
+}
+
+.ekshun {
+    position: absolute;
+    top: 950px;
+    font-size: 30px;
+    color: rgb(219, 183, 64); 
+}
+
+.race {
+    position: absolute;
+    top: 1770px;
+    font-size: 30px;  
+}
+
+img {
+    border: 2px solid #000;
+}
